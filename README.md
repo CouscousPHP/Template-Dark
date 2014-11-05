@@ -1,5 +1,7 @@
 # Couscous default template
 
+![](screenshot.png)
+
 ## Usage
 
 To use the template, set it up in your `couscous.yml` configuration file:
