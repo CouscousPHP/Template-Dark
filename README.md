@@ -17,35 +17,34 @@ But since it's the default template for Couscous, you actually don't need to do 
 Here are all the variables you can set in your `couscous.yml`:
 
 ```yaml
-layout:
-    # Base URL of the published website
-    baseUrl: http://username.github.io/project
+# Base URL of the published website
+baseUrl: http://username.github.io/project
 
-    # Used to link to the GitHub project
-    github:
-        user: myself
-        repo: my-project
+# Used to link to the GitHub project
+github:
+    user: myself
+    repo: my-project
 
-    title: My project
-    subTitle: This is a great project.
+title: My project
+subTitle: This is a great project.
 
-    # The left menu bar
-    menu:
-        sections:
-            main:
-                name: Main documentation
-                items:
-                    home:
-                        text: Home page
-                        # You can use relative urls
-                        relativeUrl: doc/faq.html
-                    foo:
-                        text: Another link
-                        # Or absolute urls
-                        absoluteUrl: https://example.com
-            other:
-                name: Other topics
-                items:
+# The left menu bar
+menu:
+    sections:
+        main:
+            name: Main documentation
+            items:
+                home:
+                    text: Home page
+                    # You can use relative urls
+                    relativeUrl: doc/faq.html
+                foo:
+                    text: Another link
+                    # Or absolute urls
+                    absoluteUrl: https://example.com
+        other:
+            name: Other topics
+            items:
 ```
 
 Note that the menu items can also contain HTML:
