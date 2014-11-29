@@ -7,7 +7,8 @@
 To use the template, set it up in your `couscous.yml` configuration file:
 
 ```yaml
-templateUrl: https://github.com/CouscousPHP/Template-Default
+template:
+    url: https://github.com/CouscousPHP/Template-Default
 ```
 
 But since it's the default template for Couscous, you actually don't need to do anything.
