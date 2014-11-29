@@ -21,6 +21,10 @@ li {
     margin-bottom: 3px;
 }
 
+img {
+    max-width: 100%;
+}
+
 header.navbar {
     opacity: 0.9;
 }
