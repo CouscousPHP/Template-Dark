@@ -1,6 +1,7 @@
-# Couscous default template
-
-![](screenshot.png)
+---
+currentMenu: home
+---
+# Couscous Dark template
 
 ## Usage
 
@@ -8,10 +9,8 @@ To use the template, set it up in your `couscous.yml` configuration file:
 
 ```yaml
 template:
-    url: https://github.com/CouscousPHP/Template-Default
+    url: https://github.com/CouscousPHP/Template-Dark
 ```
-
-But since it's the default template for Couscous, you actually don't need to do anything.
 
 ## Configuration
 

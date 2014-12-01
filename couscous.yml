@@ -3,10 +3,10 @@ template:
 
 github:
     user: CouscousPHP
-    repo: Template-Default
+    repo: Template-Dark
 
 title: Couscous template
-subTitle: The default template for Couscous.
+subTitle: The dark template for Couscous.
 
 # The left menu bar
 menu:
