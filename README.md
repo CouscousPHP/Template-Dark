@@ -53,7 +53,7 @@ Note that the menu items can also contain HTML:
 
 ```yaml
 home:
-    text: "<i class="fa fa-github"></i> Home page"
+    text: "<i class=\"fa fa-github\"></i> Home page"
     relativeUrl: doc/faq.html
 ```
 
