@@ -18,7 +18,7 @@
             <a class="navbar-brand" href="{{ baseUrl }}/">
                 {{ title|default('The title') }}
                 <small class="hidden-xs hidden-sm">
-                    {{ subTitle|default('This is the default subtitle!') }}
+                    {{ subTitle|default('This is the default subtitle!')|raw }}
                 </small>
             </a>
 
