@@ -94,4 +94,5 @@ code {
     background-color: #1D2B3A;
     white-space: pre-wrap;
     white-space: -moz-pre-wrap;
+    word-wrap: break-word;
 }
